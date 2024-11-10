@@ -1,25 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>@yield('title')</title>
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <link rel="stylesheet" href="{{ asset('css/layouts.css') }}">
-    <link rel="stylesheet" href="/bootstrap/css/bootstrap.css"> <!-- เพิ่ม Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 <body>
     <div class="d-flex">
         <!-- Sidebar -->
-        <div class="sidebar border-end px-4 pt-2">
+        <div class="sidebar d-none d-md-block border-end px-4 pt-2">
             <div class="sidebar-header border-bottom mb-4">
-                <div class="sidebar-brand fs-2">CoreUI</div>
+                <div class="sidebar-brand fs-2 mb-2">CoreUI</div>
             </div>
             <ul class="sidebar-nav list-unstyled">
                 <li class="nav-title">Nav Title</li>
                 <li class="nav-item">
                     <a class="nav-link active" href="#">
                         <i class="nav-icon cil-speedometer"></i> Nav item
+                        
                     </a>
                 </li>
                 <li class="nav-item">
@@ -54,16 +55,15 @@
                 </li>
             </ul>
             <div class="sidebar-footer border-top d-flex">
-                <button class="sidebar-toggler" type="button"></button>
             </div>
         </div>
 
         <!-- Main Content -->
-        <div class="content-wrapper d-flex justify-content-center">
+        <div class="content-wrapper">
             @yield('content')
         </div>
     </div>
-
-    <script src="/bootstrap/js/bootstrap.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
+
 </html>
