@@ -16,7 +16,7 @@
                 <div class="sidebar-brand fs-2 mb-2">LaraDon</div>
             </div>
             <ul class="sidebar-nav list-unstyled">
-                <li class="nav-title">Nav Title</li>
+                <li class="nav-title">Don Title</li>
                 <li class="nav-item">
                     <a class="nav-link active" href="#">
                         <i class="nav-icon cil-speedometer"></i> Nav item
