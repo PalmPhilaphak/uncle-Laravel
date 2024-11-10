@@ -46,7 +46,6 @@
                 </div>
             </div>
 
-
             <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-2 d-flex justify-content-center align-items-center">
                 <div class="card" style="width: 18rem;">
                     <img src="..." class="card-img-top" alt="...">

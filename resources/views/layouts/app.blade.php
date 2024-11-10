@@ -13,7 +13,7 @@
         <!-- Sidebar -->
         <div class="sidebar d-none d-md-block border-end px-4 pt-2">
             <div class="sidebar-header border-bottom mb-4">
-                <div class="sidebar-brand fs-2 mb-2">CoreUI</div>
+                <div class="sidebar-brand fs-2 mb-2">LaraDon</div>
             </div>
             <ul class="sidebar-nav list-unstyled">
                 <li class="nav-title">Nav Title</li>
